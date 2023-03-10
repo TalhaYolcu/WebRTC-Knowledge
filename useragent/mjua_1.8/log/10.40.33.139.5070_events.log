@@ -1,0 +1,29 @@
+10:35:45.991: SipProvider-5070: Date: 10:35:45.991 Fri 10 Mar 2023
+10:35:45.992: SipProvider-5070: SipStack: mjsip 1.8
+10:35:45.992: SipProvider-5070: new SipProvider(): 5070/
+10:35:45.993: SipProvider-5070: udp is up at port 5070
+10:35:45.999: SipProvider-5070: tcp is up at port 5070
+10:35:46.140: DEBUG: UserAgent: ua_address: 10.40.33.139:5070
+10:35:46.140: DEBUG: UserAgent: user's uri: "Alice" <sip:alice@10.40.33.139:5070>
+10:35:46.140: DEBUG: UserAgent: proxy: null
+10:35:46.140: DEBUG: UserAgent: registrar: null
+10:35:46.140: DEBUG: UserAgent: auth_realm: example.com
+10:35:46.140: DEBUG: UserAgent: auth_user: alice
+10:35:46.141: DEBUG: UserAgent: auth_passwd: ******
+10:35:46.141: DEBUG: UserAgent: audio: true
+10:35:46.141: DEBUG: UserAgent: video: false
+10:35:46.141: DEBUG: UserAgent: media: audio 4070 RTP/AVP { audio 0 PCMU 8000 160 1, audio 8 PCMA 8000 160 1 }
+10:35:46.141: DEBUG: UserAgent: media: video 4072 rtp/avp { video 101 }
+10:35:46.141: TRACE: UserAgent: loopback: false
+10:35:46.141: TRACE: UserAgent: send_only: false
+10:35:46.141: TRACE: UserAgent: recv_only: false
+10:35:46.141: TRACE: UserAgent: send_file: null
+10:35:46.141: TRACE: UserAgent: recv_file: null
+10:35:46.141: TRACE: UserAgent: send_tone: false
+10:35:46.142: DEBUG: SipProvider-5070: adding SipProviderListener: INVITE
+10:35:46.142: TRACE: SipProvider-5070: active sip listeners: 1
+10:35:46.142: DEBUG: SipProvider-5070: adding SipProviderListener: OPTIONS
+10:35:46.142: TRACE: SipProvider-5070: active sip listeners: 2
+10:35:46.143: DEBUG: SipProvider-5070: adding SipProviderListener: ANY
+10:35:46.143: TRACE: SipProvider-5070: active sip listeners: 3
+10:35:46.232: DEBUG: GraphicalUA: state: IDLE
